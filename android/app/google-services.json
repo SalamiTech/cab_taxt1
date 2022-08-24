@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "511651686639",
+    "firebase_url": "https://geetaxi-3ab2f-default-rtdb.firebaseio.com",
+    "project_id": "geetaxi-3ab2f",
+    "storage_bucket": "geetaxi-3ab2f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:511651686639:android:addfda1e67f74036ca931a",
+        "android_client_info": {
+          "package_name": "com.example.cab_taxt1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "511651686639-dbhuqb8fg53vp964g3iko3n1ls0l1j69.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDF_VDQXJIg-OsO33EacVKS_uPj5hNIpKo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "511651686639-dbhuqb8fg53vp964g3iko3n1ls0l1j69.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "511651686639-4ma1gpmfuekg4svud2fnpqovv7l8rm7v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.cabTaxt1"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
