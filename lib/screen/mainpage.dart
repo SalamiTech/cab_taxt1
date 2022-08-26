@@ -14,6 +14,7 @@ class _MainPageState extends State<MainPage> {
       appBar: AppBar(
         title: Text('Main Page'),
       ),
+      body: const Center(child:Text('Main Page'))
     );
   }
 }
