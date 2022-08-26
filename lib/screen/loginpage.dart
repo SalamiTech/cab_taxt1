@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 class LoginPage extends StatelessWidget {
   const LoginPage({Key? key}) : super(key: key);
 
+  get onLongPress => null;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -26,24 +28,56 @@ class LoginPage extends StatelessWidget {
             textAlign: TextAlign.center,
             style: TextStyle(fontSize: 25, fontFamily: 'Brand-Bold'),
           ),
-          TextField(
-            keyboardType: TextInputType.emailAddress,
-            decoration: InputDecoration(
-                labelText: 'Email address',
-                labelStyle: TextStyle(
-                  fontSize: 14.0,
+
+          Padding(
+            padding: EdgeInsets.all(20.0),
+            child: Column(
+              children: <Widget>[
+
+                TextField(
+                  keyboardType: TextInputType.emailAddress,
+                  decoration: InputDecoration(
+                      labelText: 'Email address',
+                      labelStyle: TextStyle(
+                        fontSize: 14.0,
+                      ),
+                      hintStyle: TextStyle(
+                        color: Colors.grey,
+                        fontSize: 10.0,
+                      )
+                  ),
+                  style: TextStyle(fontSize: 14),
                 ),
-                hintStyle: TextStyle(
-                  color: Colors.grey,
-                  fontSize: 10.0,
-                )),
-            style: TextStyle(fontSize: 14),
-          ),
-          SizedBox(
-            height: 10,
-          ),
+
+                SizedBox(height: 10,),
+
+                TextField(
+                  obscureText: true,
+                  decoration: InputDecoration(
+                      labelText: 'Password',
+                      labelStyle: TextStyle(
+                        fontSize: 14.0,
+                      ),
+                      hintStyle: TextStyle(
+                        color: Colors.grey,
+                        fontSize: 10.0,
+                      )
+                  ),
+                  style: TextStyle(fontSize: 14),
+                ),
+
+                SizedBox(height: 40,),
+
+              ],
+            ),
+          )
+
+
+
         ],
       ),
     );
   }
 }
+
+
