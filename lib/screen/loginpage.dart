@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/src/material/material_button.dart';
 
 class LoginPage extends StatelessWidget {
   const LoginPage({Key? key}) : super(key: key);
@@ -72,9 +73,11 @@ class LoginPage extends StatelessWidget {
             ),
           )
 
-
-
+          ,MaterialButton (onPressed:(){},
+              child: Text('Login'),
+          )
         ],
+
       ),
     );
   }
